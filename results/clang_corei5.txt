@@ -1,0 +1,386 @@
+[==========] Running 24 benchmarks.
+[ RUN      ] StringAppendBenchmark.Trivial(1) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.Trivial(1) (0.061047 ms)
+[   RUNS   ]        Average time: 6.105 us
+                         Fastest: 5.427 us (-0.678 us / -11.101 %)
+                         Slowest: 11.446 us (+5.341 us / +87.495 %)
+                                  
+             Average performance: 163808.21334 runs/s
+                Best performance: 184263.86586 runs/s (+20455.65251 runs/s / +12.48756 %)
+               Worst performance: 87366.76568 runs/s (-76441.44766 runs/s / -46.66521 %)
+[ITERATIONS]        Average time: 0.061 us
+                         Fastest: 0.054 us (-0.007 us / -0.000 %)
+                         Slowest: 0.114 us (+0.053 us / +0.000 %)
+                                  
+             Average performance: 16380821.33438 iterations/s
+                Best performance: 18426386.58559 iterations/s (+2045565.25121 iterations/s / +12.48756 %)
+               Worst performance: 8736676.56823 iterations/s (-7644144.76615 iterations/s / -46.66521 %)
+[ RUN      ] StringAppendBenchmark.Trivial(10) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.Trivial(10) (0.452374 ms)
+[   RUNS   ]        Average time: 45.237 us
+                         Fastest: 45.138 us (-0.099 us / -0.220 %)
+                         Slowest: 45.696 us (+0.459 us / +1.014 %)
+                                  
+             Average performance: 22105.60289 runs/s
+                Best performance: 22154.28242 runs/s (+48.67954 runs/s / +0.22021 %)
+               Worst performance: 21883.75350 runs/s (-221.84938 runs/s / -1.00359 %)
+[ITERATIONS]        Average time: 0.452 us
+                         Fastest: 0.451 us (-0.001 us / -0.000 %)
+                         Slowest: 0.457 us (+0.005 us / +0.000 %)
+                                  
+             Average performance: 2210560.28861 iterations/s
+                Best performance: 2215428.24228 iterations/s (+4867.95367 iterations/s / +0.22021 %)
+               Worst performance: 2188375.35014 iterations/s (-22184.93847 iterations/s / -1.00359 %)
+[ RUN      ] StringAppendBenchmark.Trivial(100) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.Trivial(100) (5.499828 ms)
+[   RUNS   ]        Average time: 549.983 us
+                         Fastest: 501.297 us (-48.686 us / -8.852 %)
+                         Slowest: 558.920 us (+8.937 us / +1.625 %)
+                                  
+             Average performance: 1818.23868 runs/s
+                Best performance: 1994.82542 runs/s (+176.58674 runs/s / +9.71197 %)
+               Worst performance: 1789.16482 runs/s (-29.07386 runs/s / -1.59901 %)
+[ITERATIONS]        Average time: 5.500 us
+                         Fastest: 5.013 us (-0.487 us / -0.000 %)
+                         Slowest: 5.589 us (+0.089 us / +0.000 %)
+                                  
+             Average performance: 181823.86795 iterations/s
+                Best performance: 199482.54229 iterations/s (+17658.67434 iterations/s / +9.71197 %)
+               Worst performance: 178916.48179 iterations/s (-2907.38616 iterations/s / -1.59901 %)
+[ RUN      ] StringAppendBenchmark.Trivial(1000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.Trivial(1000) (26.053030 ms)
+[   RUNS   ]        Average time: 2605.303 us
+                         Fastest: 2290.963 us (-314.340 us / -12.065 %)
+                         Slowest: 3541.386 us (+936.083 us / +35.930 %)
+                                  
+             Average performance: 383.83251 runs/s
+                Best performance: 436.49766 runs/s (+52.66515 runs/s / +13.72087 %)
+               Worst performance: 282.37532 runs/s (-101.45720 runs/s / -26.43267 %)
+[ITERATIONS]        Average time: 26.053 us
+                         Fastest: 22.910 us (-3.143 us / -0.000 %)
+                         Slowest: 35.414 us (+9.361 us / +0.000 %)
+                                  
+             Average performance: 38383.25139 iterations/s
+                Best performance: 43649.76650 iterations/s (+5266.51510 iterations/s / +13.72087 %)
+               Worst performance: 28237.53186 iterations/s (-10145.71953 iterations/s / -26.43267 %)
+[ RUN      ] StringAppendBenchmark.Trivial(10000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.Trivial(10000) (252.056154 ms)
+[   RUNS   ]        Average time: 25205.615 us
+                         Fastest: 22410.390 us (-2795.225 us / -11.090 %)
+                         Slowest: 33503.756 us (+8298.141 us / +32.922 %)
+                                  
+             Average performance: 39.67370 runs/s
+                Best performance: 44.62216 runs/s (+4.94846 runs/s / +12.47290 %)
+               Worst performance: 29.84740 runs/s (-9.82630 runs/s / -24.76779 %)
+[ITERATIONS]        Average time: 252.056 us
+                         Fastest: 224.104 us (-27.952 us / -0.000 %)
+                         Slowest: 335.038 us (+82.981 us / +0.000 %)
+                                  
+             Average performance: 3967.36991 iterations/s
+                Best performance: 4462.21596 iterations/s (+494.84606 iterations/s / +12.47290 %)
+               Worst performance: 2984.73998 iterations/s (-982.62993 iterations/s / -24.76779 %)
+[ RUN      ] StringAppendBenchmark.Trivial(100000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.Trivial(100000) (2662.739992 ms)
+[   RUNS   ]        Average time: 266273.999 us
+                         Fastest: 230410.708 us (-35863.291 us / -13.469 %)
+                         Slowest: 282484.017 us (+16210.018 us / +6.088 %)
+                                  
+             Average performance: 3.75553 runs/s
+                Best performance: 4.34008 runs/s (+0.58455 runs/s / +15.56494 %)
+               Worst performance: 3.54002 runs/s (-0.21551 runs/s / -5.73838 %)
+[ITERATIONS]        Average time: 2662.740 us
+                         Fastest: 2304.107 us (-358.633 us / -0.000 %)
+                         Slowest: 2824.840 us (+162.100 us / +0.000 %)
+                                  
+             Average performance: 375.55300 iterations/s
+                Best performance: 434.00761 iterations/s (+58.45460 iterations/s / +15.56494 %)
+               Worst performance: 354.00233 iterations/s (-21.55067 iterations/s / -5.73838 %)
+[ RUN      ] StringAppendBenchmark.Trivial(1000000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.Trivial(1000000) (23840.629854 ms)
+[   RUNS   ]        Average time: 2384062.985 us
+                         Fastest: 2271252.740 us (-112810.245 us / -4.732 %)
+                         Slowest: 2577790.751 us (+193727.766 us / +8.126 %)
+                                  
+             Average performance: 0.41945 runs/s
+                Best performance: 0.44029 runs/s (+0.02083 runs/s / +4.96687 %)
+               Worst performance: 0.38793 runs/s (-0.03152 runs/s / -7.51526 %)
+[ITERATIONS]        Average time: 23840.630 us
+                         Fastest: 22712.527 us (-1128.102 us / -0.000 %)
+                         Slowest: 25777.908 us (+1937.278 us / +0.000 %)
+                                  
+             Average performance: 41.94520 iterations/s
+                Best performance: 44.02857 iterations/s (+2.08336 iterations/s / +4.96687 %)
+               Worst performance: 38.79291 iterations/s (-3.15229 iterations/s / -7.51526 %)
+[ RUN      ] StringAppendBenchmark.Trivial(4000000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.Trivial(4000000) (95665.267180 ms)
+[   RUNS   ]        Average time: 9566526.718 us
+                         Fastest: 9527717.455 us (-38809.263 us / -0.406 %)
+                         Slowest: 9626421.128 us (+59894.410 us / +0.626 %)
+                                  
+             Average performance: 0.10453 runs/s
+                Best performance: 0.10496 runs/s (+0.00043 runs/s / +0.40733 %)
+               Worst performance: 0.10388 runs/s (-0.00065 runs/s / -0.62219 %)
+[ITERATIONS]        Average time: 95665.267 us
+                         Fastest: 95277.175 us (-388.093 us / -0.000 %)
+                         Slowest: 96264.211 us (+598.944 us / +0.000 %)
+                                  
+             Average performance: 10.45311 iterations/s
+                Best performance: 10.49569 iterations/s (+0.04258 iterations/s / +0.40733 %)
+               Worst performance: 10.38808 iterations/s (-0.06504 iterations/s / -0.62219 %)
+[ RUN      ] StringAppendBenchmark.StringStream(1) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.StringStream(1) (0.207023 ms)
+[   RUNS   ]        Average time: 20.702 us
+                         Fastest: 18.007 us (-2.695 us / -13.019 %)
+                         Slowest: 44.070 us (+23.368 us / +112.875 %)
+                                  
+             Average performance: 48303.81165 runs/s
+                Best performance: 55533.95902 runs/s (+7230.14736 runs/s / +14.96807 %)
+               Worst performance: 22691.17313 runs/s (-25612.63852 runs/s / -53.02405 %)
+[ITERATIONS]        Average time: 0.207 us
+                         Fastest: 0.180 us (-0.027 us / -0.000 %)
+                         Slowest: 0.441 us (+0.234 us / +0.000 %)
+                                  
+             Average performance: 4830381.16538 iterations/s
+                Best performance: 5553395.90159 iterations/s (+723014.73622 iterations/s / +14.96807 %)
+               Worst performance: 2269117.31337 iterations/s (-2561263.85201 iterations/s / -53.02405 %)
+[ RUN      ] StringAppendBenchmark.StringStream(10) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.StringStream(10) (0.491776 ms)
+[   RUNS   ]        Average time: 49.178 us
+                         Fastest: 45.965 us (-3.213 us / -6.533 %)
+                         Slowest: 57.956 us (+8.778 us / +17.850 %)
+                                  
+             Average performance: 20334.46122 runs/s
+                Best performance: 21755.68367 runs/s (+1421.22245 runs/s / +6.98923 %)
+               Worst performance: 17254.46891 runs/s (-3079.99231 runs/s / -15.14666 %)
+[ITERATIONS]        Average time: 0.492 us
+                         Fastest: 0.460 us (-0.032 us / -0.000 %)
+                         Slowest: 0.580 us (+0.088 us / +0.000 %)
+                                  
+             Average performance: 2033446.12181 iterations/s
+                Best performance: 2175568.36724 iterations/s (+142122.24542 iterations/s / +6.98923 %)
+               Worst performance: 1725446.89074 iterations/s (-307999.23107 iterations/s / -15.14666 %)
+[ RUN      ] StringAppendBenchmark.StringStream(100) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.StringStream(100) (4.190646 ms)
+[   RUNS   ]        Average time: 419.065 us
+                         Fastest: 418.020 us (-1.045 us / -0.249 %)
+                         Slowest: 423.252 us (+4.187 us / +0.999 %)
+                                  
+             Average performance: 2386.26694 runs/s
+                Best performance: 2392.23004 runs/s (+5.96310 runs/s / +0.24989 %)
+               Worst performance: 2362.65865 runs/s (-23.60829 runs/s / -0.98934 %)
+[ITERATIONS]        Average time: 4.191 us
+                         Fastest: 4.180 us (-0.010 us / -0.000 %)
+                         Slowest: 4.233 us (+0.042 us / +0.000 %)
+                                  
+             Average performance: 238626.69383 iterations/s
+                Best performance: 239223.00368 iterations/s (+596.30985 iterations/s / +0.24989 %)
+               Worst performance: 236265.86525 iterations/s (-2360.82858 iterations/s / -0.98934 %)
+[ RUN      ] StringAppendBenchmark.StringStream(1000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.StringStream(1000) (33.811324 ms)
+[   RUNS   ]        Average time: 3381.132 us
+                         Fastest: 3380.056 us (-1.076 us / -0.032 %)
+                         Slowest: 3383.439 us (+2.307 us / +0.068 %)
+                                  
+             Average performance: 295.75890 runs/s
+                Best performance: 295.85309 runs/s (+0.09419 runs/s / +0.03185 %)
+               Worst performance: 295.55727 runs/s (-0.20163 runs/s / -0.06817 %)
+[ITERATIONS]        Average time: 33.811 us
+                         Fastest: 33.801 us (-0.011 us / -0.000 %)
+                         Slowest: 33.834 us (+0.023 us / +0.000 %)
+                                  
+             Average performance: 29575.89002 iterations/s
+                Best performance: 29585.30865 iterations/s (+9.41863 iterations/s / +0.03185 %)
+               Worst performance: 29555.72718 iterations/s (-20.16284 iterations/s / -0.06817 %)
+[ RUN      ] StringAppendBenchmark.StringStream(10000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.StringStream(10000) (326.177004 ms)
+[   RUNS   ]        Average time: 32617.700 us
+                         Fastest: 32565.574 us (-52.126 us / -0.160 %)
+                         Slowest: 32788.091 us (+170.391 us / +0.522 %)
+                                  
+             Average performance: 30.65820 runs/s
+                Best performance: 30.70727 runs/s (+0.04907 runs/s / +0.16007 %)
+               Worst performance: 30.49888 runs/s (-0.15932 runs/s / -0.51967 %)
+[ITERATIONS]        Average time: 326.177 us
+                         Fastest: 325.656 us (-0.521 us / -0.000 %)
+                         Slowest: 327.881 us (+1.704 us / +0.000 %)
+                                  
+             Average performance: 3065.82005 iterations/s
+                Best performance: 3070.72739 iterations/s (+4.90733 iterations/s / +0.16007 %)
+               Worst performance: 3049.88784 iterations/s (-15.93222 iterations/s / -0.51967 %)
+[ RUN      ] StringAppendBenchmark.StringStream(100000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.StringStream(100000) (3331.211626 ms)
+[   RUNS   ]        Average time: 333121.163 us
+                         Fastest: 326743.010 us (-6378.153 us / -1.915 %)
+                         Slowest: 339051.897 us (+5930.734 us / +1.780 %)
+                                  
+             Average performance: 3.00191 runs/s
+                Best performance: 3.06051 runs/s (+0.05860 runs/s / +1.95204 %)
+               Worst performance: 2.94940 runs/s (-0.05251 runs/s / -1.74921 %)
+[ITERATIONS]        Average time: 3331.212 us
+                         Fastest: 3267.430 us (-63.782 us / -0.000 %)
+                         Slowest: 3390.519 us (+59.307 us / +0.000 %)
+                                  
+             Average performance: 300.19108 iterations/s
+                Best performance: 306.05092 iterations/s (+5.85985 iterations/s / +1.95204 %)
+               Worst performance: 294.94010 iterations/s (-5.25098 iterations/s / -1.74921 %)
+[ RUN      ] StringAppendBenchmark.StringStream(1000000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.StringStream(1000000) (33950.266054 ms)
+[   RUNS   ]        Average time: 3395026.605 us
+                         Fastest: 3371474.617 us (-23551.988 us / -0.694 %)
+                         Slowest: 3411085.311 us (+16058.706 us / +0.473 %)
+                                  
+             Average performance: 0.29455 runs/s
+                Best performance: 0.29661 runs/s (+0.00206 runs/s / +0.69857 %)
+               Worst performance: 0.29316 runs/s (-0.00139 runs/s / -0.47078 %)
+[ITERATIONS]        Average time: 33950.266 us
+                         Fastest: 33714.746 us (-235.520 us / -0.000 %)
+                         Slowest: 34110.853 us (+160.587 us / +0.000 %)
+                                  
+             Average performance: 29.45485 iterations/s
+                Best performance: 29.66061 iterations/s (+0.20576 iterations/s / +0.69857 %)
+               Worst performance: 29.31618 iterations/s (-0.13867 iterations/s / -0.47078 %)
+[ RUN      ] StringAppendBenchmark.StringStream(4000000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.StringStream(4000000) (141159.749611 ms)
+[   RUNS   ]        Average time: 14115974.961 us
+                         Fastest: 13956414.718 us (-159560.243 us / -1.130 %)
+                         Slowest: 14582426.025 us (+466451.064 us / +3.304 %)
+                                  
+             Average performance: 0.07084 runs/s
+                Best performance: 0.07165 runs/s (+0.00081 runs/s / +1.14328 %)
+               Worst performance: 0.06858 runs/s (-0.00227 runs/s / -3.19872 %)
+[ITERATIONS]        Average time: 141159.750 us
+                         Fastest: 139564.147 us (-1595.602 us / -0.000 %)
+                         Slowest: 145824.260 us (+4664.511 us / +0.000 %)
+                                  
+             Average performance: 7.08417 iterations/s
+                Best performance: 7.16516 iterations/s (+0.08099 iterations/s / +1.14328 %)
+               Worst performance: 6.85757 iterations/s (-0.22660 iterations/s / -3.19872 %)
+[ RUN      ] StringAppendBenchmark.ReserveAppendString(1) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.ReserveAppendString(1) (0.041801 ms)
+[   RUNS   ]        Average time: 4.180 us
+                         Fastest: 3.351 us (-0.829 us / -19.834 %)
+                         Slowest: 11.509 us (+7.329 us / +175.328 %)
+                                  
+             Average performance: 239228.72659 runs/s
+                Best performance: 298418.38257 runs/s (+59189.65599 runs/s / +24.74187 %)
+               Worst performance: 86888.52203 runs/s (-152340.20456 runs/s / -63.67973 %)
+[ITERATIONS]        Average time: 0.042 us
+                         Fastest: 0.034 us (-0.008 us / -0.000 %)
+                         Slowest: 0.115 us (+0.073 us / +0.000 %)
+                                  
+             Average performance: 23922872.65855 iterations/s
+                Best performance: 29841838.25724 iterations/s (+5918965.59869 iterations/s / +24.74187 %)
+               Worst performance: 8688852.20262 iterations/s (-15234020.45592 iterations/s / -63.67973 %)
+[ RUN      ] StringAppendBenchmark.ReserveAppendString(10) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.ReserveAppendString(10) (0.257425 ms)
+[   RUNS   ]        Average time: 25.742 us
+                         Fastest: 25.710 us (-0.032 us / -0.126 %)
+                         Slowest: 25.960 us (+0.218 us / +0.845 %)
+                                  
+             Average performance: 38846.26590 runs/s
+                Best performance: 38895.37145 runs/s (+49.10555 runs/s / +0.12641 %)
+               Worst performance: 38520.80123 runs/s (-325.46467 runs/s / -0.83783 %)
+[ITERATIONS]        Average time: 0.257 us
+                         Fastest: 0.257 us (-0.000 us / -0.000 %)
+                         Slowest: 0.260 us (+0.002 us / +0.000 %)
+                                  
+             Average performance: 3884626.59027 iterations/s
+                Best performance: 3889537.14508 iterations/s (+4910.55481 iterations/s / +0.12641 %)
+               Worst performance: 3852080.12327 iterations/s (-32546.46700 iterations/s / -0.83783 %)
+[ RUN      ] StringAppendBenchmark.ReserveAppendString(100) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.ReserveAppendString(100) (2.450062 ms)
+[   RUNS   ]        Average time: 245.006 us
+                         Fastest: 239.299 us (-5.707 us / -2.329 %)
+                         Slowest: 265.603 us (+20.597 us / +8.407 %)
+                                  
+             Average performance: 4081.52937 runs/s
+                Best performance: 4178.87246 runs/s (+97.34309 runs/s / +2.38497 %)
+               Worst performance: 3765.01771 runs/s (-316.51165 runs/s / -7.75473 %)
+[ITERATIONS]        Average time: 2.450 us
+                         Fastest: 2.393 us (-0.057 us / -0.000 %)
+                         Slowest: 2.656 us (+0.206 us / +0.000 %)
+                                  
+             Average performance: 408152.93654 iterations/s
+                Best performance: 417887.24566 iterations/s (+9734.30913 iterations/s / +2.38497 %)
+               Worst performance: 376501.77144 iterations/s (-31651.16510 iterations/s / -7.75473 %)
+[ RUN      ] StringAppendBenchmark.ReserveAppendString(1000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.ReserveAppendString(1000) (22.054875 ms)
+[   RUNS   ]        Average time: 2205.488 us
+                         Fastest: 2204.655 us (-0.832 us / -0.038 %)
+                         Slowest: 2207.662 us (+2.174 us / +0.099 %)
+                                  
+             Average performance: 453.41449 runs/s
+                Best performance: 453.58571 runs/s (+0.17121 runs/s / +0.03776 %)
+               Worst performance: 452.96789 runs/s (-0.44660 runs/s / -0.09850 %)
+[ITERATIONS]        Average time: 22.055 us
+                         Fastest: 22.047 us (-0.008 us / -0.000 %)
+                         Slowest: 22.077 us (+0.022 us / +0.000 %)
+                                  
+             Average performance: 45341.44945 iterations/s
+                Best performance: 45358.57084 iterations/s (+17.12139 iterations/s / +0.03776 %)
+               Worst performance: 45296.78909 iterations/s (-44.66036 iterations/s / -0.09850 %)
+[ RUN      ] StringAppendBenchmark.ReserveAppendString(10000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.ReserveAppendString(10000) (225.827929 ms)
+[   RUNS   ]        Average time: 22582.793 us
+                         Fastest: 22295.169 us (-287.624 us / -1.274 %)
+                         Slowest: 22878.487 us (+295.694 us / +1.309 %)
+                                  
+             Average performance: 44.28150 runs/s
+                Best performance: 44.85277 runs/s (+0.57126 runs/s / +1.29007 %)
+               Worst performance: 43.70918 runs/s (-0.57232 runs/s / -1.29245 %)
+[ITERATIONS]        Average time: 225.828 us
+                         Fastest: 222.952 us (-2.876 us / -0.000 %)
+                         Slowest: 228.785 us (+2.957 us / +0.000 %)
+                                  
+             Average performance: 4428.15025 iterations/s
+                Best performance: 4485.27661 iterations/s (+57.12636 iterations/s / +1.29007 %)
+               Worst performance: 4370.91841 iterations/s (-57.23184 iterations/s / -1.29245 %)
+[ RUN      ] StringAppendBenchmark.ReserveAppendString(100000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.ReserveAppendString(100000) (2289.915750 ms)
+[   RUNS   ]        Average time: 228991.575 us
+                         Fastest: 222049.257 us (-6942.318 us / -3.032 %)
+                         Slowest: 240112.035 us (+11120.460 us / +4.856 %)
+                                  
+             Average performance: 4.36697 runs/s
+                Best performance: 4.50351 runs/s (+0.13653 runs/s / +3.12648 %)
+               Worst performance: 4.16472 runs/s (-0.20225 runs/s / -4.63136 %)
+[ITERATIONS]        Average time: 2289.916 us
+                         Fastest: 2220.493 us (-69.423 us / -0.000 %)
+                         Slowest: 2401.120 us (+111.205 us / +0.000 %)
+                                  
+             Average performance: 436.69729 iterations/s
+                Best performance: 450.35053 iterations/s (+13.65324 iterations/s / +3.12648 %)
+               Worst performance: 416.47225 iterations/s (-20.22504 iterations/s / -4.63136 %)
+[ RUN      ] StringAppendBenchmark.ReserveAppendString(1000000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.ReserveAppendString(1000000) (23115.717170 ms)
+[   RUNS   ]        Average time: 2311571.717 us
+                         Fastest: 2284738.058 us (-26833.659 us / -1.161 %)
+                         Slowest: 2339490.575 us (+27918.858 us / +1.208 %)
+                                  
+             Average performance: 0.43261 runs/s
+                Best performance: 0.43769 runs/s (+0.00508 runs/s / +1.17447 %)
+               Worst performance: 0.42744 runs/s (-0.00516 runs/s / -1.19337 %)
+[ITERATIONS]        Average time: 23115.717 us
+                         Fastest: 22847.381 us (-268.337 us / -0.000 %)
+                         Slowest: 23394.906 us (+279.189 us / +0.000 %)
+                                  
+             Average performance: 43.26061 iterations/s
+                Best performance: 43.76869 iterations/s (+0.50808 iterations/s / +1.17447 %)
+               Worst performance: 42.74435 iterations/s (-0.51626 iterations/s / -1.19337 %)
+[ RUN      ] StringAppendBenchmark.ReserveAppendString(4000000) (10 runs, 100 iterations per run)
+[     DONE ] StringAppendBenchmark.ReserveAppendString(4000000) (96821.667270 ms)
+[   RUNS   ]        Average time: 9682166.727 us
+                         Fastest: 9471194.696 us (-210972.031 us / -2.179 %)
+                         Slowest: 10345384.909 us (+663218.182 us / +6.850 %)
+                                  
+             Average performance: 0.10328 runs/s
+                Best performance: 0.10558 runs/s (+0.00230 runs/s / +2.22751 %)
+               Worst performance: 0.09666 runs/s (-0.00662 runs/s / -6.41076 %)
+[ITERATIONS]        Average time: 96821.667 us
+                         Fastest: 94711.947 us (-2109.720 us / -0.000 %)
+                         Slowest: 103453.849 us (+6632.182 us / +0.000 %)
+                                  
+             Average performance: 10.32827 iterations/s
+                Best performance: 10.55833 iterations/s (+0.23006 iterations/s / +2.22751 %)
+               Worst performance: 9.66615 iterations/s (-0.66212 iterations/s / -6.41076 %)
+[==========] Ran 24 benchmarks.
