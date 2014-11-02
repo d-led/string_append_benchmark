@@ -4,28 +4,32 @@
 #include <sstream>
 
 class char_generator {
-	char pos;
+    char pos;
 public:
-	char_generator():pos(32){}
+    char_generator():pos(32){}
 
-	std::string operator()() {
-		char res = pos;
-		if (pos>=126)
-			pos = 32;
-		else
-			pos++;
-		return std::string(2,pos);
-	}
+    std::string operator()() {
+        char res = pos;
+        if (pos>=126)
+            pos = 32;
+        else
+            pos++;
+        return std::string(2,pos);
+    }
 };
 
-BENCHMARK_P(StringAppendBenchmark, Trivial, 10, 100,(std::size_t count))
-{
-    std::string res;
+struct StringAppendBenchmark : public ::hayai::Fixture {
     char_generator next_char;
+    std::string str;
+    std::stringstream ss;
+};
+
+BENCHMARK_P_F(StringAppendBenchmark, Trivial, 10, 100,(std::size_t count))
+{
     for (size_t i=0; i<count; i++) {
-    	res.append(next_char());
+        str.append(next_char());
     }
-    static std::size_t do_not_optimize_away=res.size();
+    static std::size_t do_not_optimize_away=str.size();
 }
 
 BENCHMARK_P_INSTANCE(StringAppendBenchmark, Trivial, (1));
@@ -37,14 +41,12 @@ BENCHMARK_P_INSTANCE(StringAppendBenchmark, Trivial, (100000));
 BENCHMARK_P_INSTANCE(StringAppendBenchmark, Trivial, (1000000));
 BENCHMARK_P_INSTANCE(StringAppendBenchmark, Trivial, (4000000));
 
-BENCHMARK_P(StringAppendBenchmark, StringStream, 10, 100,(std::size_t count))
+BENCHMARK_P_F(StringAppendBenchmark, StringStream, 10, 100, (std::size_t count))
 {
-    std::stringstream res;
-    char_generator next_char;
     for (size_t i=0; i<count; i++) {
-    	res << next_char();
+        ss << next_char();
     }
-    static std::size_t do_not_optimize_away=res.str().size();
+    static std::size_t do_not_optimize_away=ss.str().size();
 }
 
 BENCHMARK_P_INSTANCE(StringAppendBenchmark, StringStream, (1));
@@ -56,15 +58,13 @@ BENCHMARK_P_INSTANCE(StringAppendBenchmark, StringStream, (100000));
 BENCHMARK_P_INSTANCE(StringAppendBenchmark, StringStream, (1000000));
 BENCHMARK_P_INSTANCE(StringAppendBenchmark, StringStream, (4000000));
 
-BENCHMARK_P(StringAppendBenchmark, ReserveAppendString, 10, 100,(std::size_t count))
+BENCHMARK_P_F(StringAppendBenchmark, ReserveAppendString, 10, 100, (std::size_t count))
 {
-    std::string res;
-    res.reserve(count);
-    char_generator next_char;
+    str.reserve(count);
     for (size_t i=0; i<count; i++) {
-    	res.append(next_char());
+        str.append(next_char());
     }
-    static std::size_t do_not_optimize_away=res.size();
+    static std::size_t do_not_optimize_away=str.size();
 }
 
 BENCHMARK_P_INSTANCE(StringAppendBenchmark, ReserveAppendString, (1));
